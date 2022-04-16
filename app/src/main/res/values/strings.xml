@@ -3,4 +3,10 @@
     <string name="enter_your_name">enterYourName</string>
     <string name="enter_your_password">enterYourPassword</string>
     <string name="submit">submit</string>
+    <string name="Select">Select</string>
+    <string-array name="year">
+        <item>first</item>
+        <item>secound</item>
+        <item>third</item>
+    </string-array>
 </resources>

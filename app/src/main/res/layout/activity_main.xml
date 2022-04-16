@@ -44,4 +44,29 @@
         android:onClick="btnSubmitOnClick"
         tools:ignore="OnClick" />
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Select"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/spinner"
+        android:layout_gravity="center"
+        android:entries="@array/year"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/btnsbmit2"
+        android:text="click"
+        android:layout_gravity="center"
+        android:onClick="btnSubmit_Click" />
+
 </LinearLayout>

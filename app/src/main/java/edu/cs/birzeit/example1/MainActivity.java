@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
     private EditText edtName;
     private EditText edtPassword;
@@ -27,8 +29,10 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
 
     }
+    //hi
     public void btnSubmit_Click(View view) {
         String item = spinner.getSelectedItem().toString();
         Toast.makeText(this, item, Toast.LENGTH_SHORT).show();
+        got ghkk
     }
 }
